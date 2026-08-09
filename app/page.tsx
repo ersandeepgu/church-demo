@@ -1,6 +1,10 @@
+export const dynamic = 'force-dynamic'; // Har refresh par fresh Sanity data layega
+
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
+import Sermons from "@/components/Sermons";
+import Events from "@/components/Events";
 
 export default function Home() {
   return (
@@ -8,6 +12,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Features />
+      <Sermons />
+      <Events />
     </main>
   );
 }
