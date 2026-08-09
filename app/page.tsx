@@ -1,8 +1,7 @@
-export const dynamic = 'force-dynamic'; // Har refresh par fresh Sanity data layega
+export const dynamic = 'force-dynamic';
 
 import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import Features from "@/components/Features";
+import FullChurchTemplate from "@/components/FullChurchTemplate";
 import Sermons from "@/components/Sermons";
 import Events from "@/components/Events";
 
@@ -10,8 +9,7 @@ export default function Home() {
   return (
     <main className="bg-slate-950 min-h-screen text-slate-100 selection:bg-indigo-500 selection:text-white">
       <Navbar />
-      <Hero />
-      <Features />
+      <FullChurchTemplate />
       <Sermons />
       <Events />
     </main>
